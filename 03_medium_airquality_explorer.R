@@ -28,8 +28,7 @@ growth <- ggplot() +
     aes(age, circumference, group = tree, color = tree, key = tree),
     alpha = 0.3,
     size = 0.8
-  ) +
-  geom_line(
+  ) + geom_line(
     data = data,
     aes(age, circumference, group = tree, key = tree),
     showSelected = "tree",
@@ -44,8 +43,7 @@ growth <- ggplot() +
     size = 3,
     alpha = 0.9,
     alpha_off = 0.1
-  ) +
-  geom_text(
+  ) +  geom_text(
     data = note,
     aes(x = x, y = y, label = label, key = 1),
     showSelected = "step",
@@ -53,6 +51,7 @@ growth <- ggplot() +
     size = 5,
     fontface = "bold"
   ) +
+  
   guides(color = "none") +
   theme_bw() +
   labs(
@@ -71,14 +70,12 @@ treeplot <- ggplot() +
     clickSelects = "tree",
     width = 0.7,
     alpha = 0.9
-  ) +
-  geom_text(
+  ) + geom_text(
     data = bars,
     aes(tree, top, label = round(circumference, 1), key = tree),
     showSelected = "step",
     size = 3.5
-  ) +
-  guides(fill = "none") +
+  ) + guides(fill = "none") +
   theme_bw() +
   labs(
     title = "Current Size by Tree",
@@ -92,22 +89,18 @@ meanplot <- ggplot() +
     aes(age, circumference, group = 1, key = 1),
     color = "#2c7fb8",
     size = 1.1
-  ) +
-  geom_point(
+  ) + geom_point(
     data = mean,
     aes(age, circumference, key = 1),
     showSelected = "step",
     color = "#2c7fb8",
     size = 3
-  ) +
-  geom_text(
+  ) + geom_text(
     data = mean,
     aes(age, top, label = round(circumference, 1), key = 1),
     showSelected = "step",
     size = 3.5
-  ) +
-  theme_bw() +
-  labs(
+  ) + theme_bw() + labs(
     title = "Average Size Over Time",
     x = "Age",
     y = "Average Circumference"

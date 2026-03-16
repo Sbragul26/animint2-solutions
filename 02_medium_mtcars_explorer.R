@@ -31,16 +31,14 @@ plot <- ggplot() +
     size = 3,
     alpha = 0.85,
     alpha_off = 0.15
-  ) +
-  geom_text(
+  ) + geom_text(
     data = carscum,
     aes(wt, mpg, label = model, key = model),
     showSelected = c("frame", "cylgroup"),
     hjust = 0,
     vjust = 0,
     size = 2.8
-  ) +
-  geom_text(
+  ) + geom_text(
     data = counter,
     aes(x = x, y = y, label = label, key = 1),
     showSelected = "frame",
@@ -48,6 +46,7 @@ plot <- ggplot() +
     size = 5,
     fontface = "bold"
   ) +
+  
   theme_bw() +
   theme(legend.position = "bottom") +
   labs(

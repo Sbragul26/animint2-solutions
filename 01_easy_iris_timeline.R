@@ -27,15 +27,13 @@ growth <- ggplot() +
     aes(day, weight, group = chick, color = diet, key = chick),
     alpha = 0.25,
     size = 0.8
-  ) +
-  geom_line(
+  ) + geom_line(
     data = data,
     aes(day, weight, group = chick, key = chick),
     showSelected = "chick",
     color = "black",
     size = 1.2
-  ) +
-  geom_point(
+  ) + geom_point(
     data = data,
     aes(day, weight, color = diet, key = chick),
     showSelected = c("day", "diet"),
@@ -43,22 +41,19 @@ growth <- ggplot() +
     size = 2.5,
     alpha = 0.9,
     alpha_off = 0.1
-  ) +
-  geom_text(
+  ) + geom_text(
     data = marks,
     aes(day, top, label = chick, key = chick),
     showSelected = c("day", "chick"),
     size = 3
-  ) +
-  geom_text(
+  ) + geom_text(
     data = note,
     aes(x = x, y = y, label = label, key = 1),
     showSelected = "day",
     inherit.aes = FALSE,
     size = 5,
     fontface = "bold"
-  ) +
-  guides(color = "none") +
+  ) + guides(color = "none") +
   theme_bw() +
   labs(
     title = "Chick Weight Growth Explorer",
@@ -76,14 +71,12 @@ dietplot <- ggplot() +
     clickSelects = "diet",
     width = 0.7,
     alpha = 0.9
-  ) +
-  geom_text(
+  ) + geom_text(
     data = bars,
     aes(diet, top, label = round(weight, 1), key = diet),
     showSelected = "day",
     size = 4
-  ) +
-  guides(fill = "none") +
+  ) + guides(fill = "none") +
   theme_bw() +
   labs(
     title = "Average Weight by Diet",

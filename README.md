@@ -49,18 +49,6 @@ Repository link:
 - Output folder: `hard-renderer-svg-test/`
 - Live link: https://sbragul26.github.io/animint2-solutions/hard-renderer-svg-test/
 
----
-
-Links:
-
-- http://localhost:8000/easy-chickweight-explorer/
-- http://localhost:8000/medium-mtcars-explorer/
-- http://localhost:8000/medium-orange-explorer/
-- http://localhost:8000/medium-co2-explorer/
-- http://localhost:8000/hard-renderer-svg-test/
-
-
-
 
 
 

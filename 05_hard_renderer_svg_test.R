@@ -56,32 +56,28 @@ plot <- ggplot(data, aes(step, value)) +
     showSelected = "grp",
     size = 1,
     color = "#2c7fb8"
-  ) +
-  geom_point(
+  ) + geom_point(
     aes(key = label),
     showSelected = c("step", "grp"),
     size = 2.8,
     alpha = 0.85,
     color = "#2c7fb8"
-  ) +
-  geom_text(
+  ) +geom_text(
     aes(label = label, key = label),
     showSelected = c("step", "grp"),
     hjust = 0,
     vjust = 0,
     size = 2.8,
     color = "#2c7fb8"
-  ) +
-  geom_text(
+  ) +  geom_text(
     data = counter,
     aes(x = x, y = y, label = label, key = 1),
     showSelected = "step",
     inherit.aes = FALSE,
     size = 5,
     fontface = "bold"
-  ) +
-  theme_bw() +
-  theme(legend.position = "bottom") +
+  ) + theme_bw() + theme(legend.position = "bottom") +
+  
   labs(
     title = "Hard Test: Renderer + SVG Validation",
     x = "Step",
