@@ -1,0 +1,875 @@
+{
+ "geoms": {
+ "geom1_line_growth": {
+ "geom": "line",
+"classed": "geom1_line_growth",
+"aes": {
+ "x": "age",
+"y": "circumference",
+"group": "tree",
+"colour": "tree",
+"key": "tree" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.3,
+"size":      0.8 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "linetype",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "group" 
+],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_line_growth": {
+ "geom": "line",
+"classed": "geom2_line_growth",
+"aes": {
+ "x": "age",
+"y": "circumference",
+"group": "tree",
+"key": "tree",
+"showSelected1": "tree" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"size":      1.3,
+"showSelected": "tree",
+"help_showSelected": "tree" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "linetype",
+"showSelected1": "linetype",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"group" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_point_growth": {
+ "geom": "point",
+"classed": "geom3_point_growth",
+"aes": {
+ "x": "age",
+"y": "circumference",
+"colour": "tree",
+"key": "tree",
+"clickSelects": "tree",
+"showSelected1": "step",
+"showSelected2": "tree" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        3,
+"alpha":      0.9,
+"showSelected": [ "step", "tree" ],
+"clickSelects": "tree",
+"alpha_off":      0.1,
+"help_showSelected": [ "step", "tree" ],
+"help_clickSelects": "tree" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "linetype",
+"clickSelects": "linetype",
+"showSelected1": "integer",
+"showSelected2": "linetype",
+"PANEL": "integer",
+"group": "character",
+"fill": "rgb" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom4_text_growth": {
+ "geom": "text",
+"classed": "geom4_text_growth",
+"aes": {
+ "x": "x",
+"y": "y",
+"label": "label",
+"key": "1",
+"showSelected1": "step" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":        5,
+"fontface": "bold",
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_bar_treeplot": {
+ "geom": "rect",
+"classed": "geom5_bar_treeplot",
+"aes": {
+ "x": "tree",
+"y": "circumference",
+"fill": "tree",
+"key": "tree",
+"clickSelects": "tree",
+"showSelected1": "step" 
+},
+"params": {
+ "width":      0.7,
+"na.rm": false,
+"na.rm": false,
+"alpha":      0.9,
+"showSelected": "step",
+"clickSelects": "tree",
+"help_showSelected": "step",
+"help_clickSelects": "tree" 
+},
+"types": {
+ "fill": "rgb",
+"key": "factor",
+"clickSelects": "factor",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character",
+"ymin": "numeric",
+"ymax": "numeric",
+"xmin": "numeric",
+"xmax": "numeric" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_text_treeplot": {
+ "geom": "text",
+"classed": "geom6_text_treeplot",
+"aes": {
+ "x": "tree",
+"y": "top",
+"label": "round(circumference, 1)",
+"key": "tree",
+"showSelected1": "step" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":      3.5,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "integer",
+"y": "numeric",
+"label": "numeric",
+"key": "factor",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_line_meanplot": {
+ "geom": "line",
+"classed": "geom7_line_meanplot",
+"aes": {
+ "x": "age",
+"y": "circumference",
+"group": "1",
+"key": "1" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#2C7FB8",
+"size":      1.1 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "numeric",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "group" 
+],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom8_point_meanplot": {
+ "geom": "point",
+"classed": "geom8_point_meanplot",
+"aes": {
+ "x": "age",
+"y": "circumference",
+"key": "1",
+"showSelected1": "step" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#2C7FB8",
+"size":        3,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"key": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom9_text_meanplot": {
+ "geom": "text",
+"classed": "geom9_text_meanplot",
+"aes": {
+ "x": "age",
+"y": "top",
+"label": "round(circumference, 1)",
+"key": "1",
+"showSelected1": "step" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":      3.5,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "numeric",
+"key": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "step",
+"ms":      800,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7" ] 
+},
+"selectors": {
+ "tree": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5" ],
+"update": [
+ "geom2_line_growth",
+"geom3_point_growth",
+"geom5_bar_treeplot" 
+] 
+},
+"step": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7" ],
+"update": [
+ "geom3_point_growth",
+"geom4_text_growth",
+"geom5_bar_treeplot",
+"geom6_text_treeplot",
+"geom8_point_meanplot",
+"geom9_text_meanplot" 
+] 
+} 
+},
+"plots": {
+ "growth": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      400,
+     800,
+    1200,
+    1600 
+] 
+],
+"y": [
+ [
+       50,
+     100,
+     150,
+     200 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      200,
+     400,
+     600,
+     800,
+    1000,
+    1200,
+    1400,
+    1600 
+] 
+],
+"y": [
+ [
+       25,
+      50,
+      75,
+     100,
+     125,
+     150,
+     175,
+     200,
+     225 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+      400,
+     800,
+    1200,
+    1600 
+],
+"xlab": [
+ "400",
+"800",
+"1200",
+"1600" 
+],
+"xrange": [     44.8,   1655.2 ],
+"xline": false,
+"xticks": true,
+"y": [
+       50,
+     100,
+     150,
+     200 
+],
+"ylab": [
+ "50",
+"100",
+"150",
+"200" 
+],
+"yrange": [     19.8,    244.2 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Age",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Circumference",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "400",
+"800",
+"1200",
+"1600" 
+],
+"ylabs": [
+ "50",
+"100",
+"150",
+"200" 
+],
+"title": "Orange Tree Growth Explorer",
+"title_size": "14.4pt",
+"options": {
+ "width":      900,
+"height":      420 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_line_growth",
+"geom2_line_growth",
+"geom3_point_growth",
+"geom4_text_growth" 
+] 
+},
+"treeplot": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+ 1,
+2,
+3,
+4,
+5 
+] 
+],
+"y": [
+ [
+        0,
+      50,
+     100,
+     150,
+     200 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [] 
+],
+"y": [
+ [
+        0,
+      25,
+      50,
+      75,
+     100,
+     125,
+     150,
+     175,
+     200,
+     225 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 1,
+2,
+3,
+4,
+5 
+],
+"xlab": [
+ "1",
+"2",
+"3",
+"4",
+"5" 
+],
+"xrange": [      0.4,      5.6 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+      50,
+     100,
+     150,
+     200 
+],
+"ylab": [
+ "0",
+"50",
+"100",
+"150",
+"200" 
+],
+"yrange": [    -11.2,    235.2 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Tree",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Circumference",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "1",
+"2",
+"3",
+"4",
+"5" 
+],
+"ylabs": [
+ "0",
+"50",
+"100",
+"150",
+"200" 
+],
+"title": "Current Size by Tree",
+"title_size": "14.4pt",
+"options": {
+ "width":      520,
+"height":      320 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom5_bar_treeplot",
+"geom6_text_treeplot" 
+] 
+},
+"meanplot": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      400,
+     800,
+    1200,
+    1600 
+] 
+],
+"y": [
+ [
+       50,
+     100,
+     150 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      200,
+     400,
+     600,
+     800,
+    1000,
+    1200,
+    1400,
+    1600 
+] 
+],
+"y": [
+ [
+       25,
+      50,
+      75,
+     100,
+     125,
+     150,
+     175 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+      400,
+     800,
+    1200,
+    1600 
+],
+"xlab": [
+ "400",
+"800",
+"1200",
+"1600" 
+],
+"xrange": [     44.8,   1655.2 ],
+"xline": false,
+"xticks": true,
+"y": [
+       50,
+     100,
+     150 
+],
+"ylab": [
+ "50",
+"100",
+"150" 
+],
+"yrange": [    23.16,   195.64 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Age",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Average Circumference",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "400",
+"800",
+"1200",
+"1600" 
+],
+"ylabs": [
+ "50",
+"100",
+"150" 
+],
+"title": "Average Size Over Time",
+"title_size": "14.4pt",
+"options": {
+ "width":      520,
+"height":      320 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom7_line_meanplot",
+"geom8_point_meanplot",
+"geom9_text_meanplot" 
+] 
+} 
+} 
+}

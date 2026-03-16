@@ -1,0 +1,529 @@
+x	y	label	key	showSelected1	showSelected2
+1.513	30.4	Lotus Europa	Lotus Europa	1	4
+1.513	30.4	Lotus Europa	Lotus Europa	2	4
+1.615	30.4	Honda Civic	Honda Civic	2	4
+1.513	30.4	Lotus Europa	Lotus Europa	3	4
+1.615	30.4	Honda Civic	Honda Civic	3	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	3	4
+1.513	30.4	Lotus Europa	Lotus Europa	4	4
+1.615	30.4	Honda Civic	Honda Civic	4	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	4	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	4	4
+1.513	30.4	Lotus Europa	Lotus Europa	5	4
+1.615	30.4	Honda Civic	Honda Civic	5	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	5	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	5	4
+2.14	26	Porsche 914-2	Porsche 914-2	5	4
+1.513	30.4	Lotus Europa	Lotus Europa	6	4
+1.615	30.4	Honda Civic	Honda Civic	6	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	6	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	6	4
+2.14	26	Porsche 914-2	Porsche 914-2	6	4
+2.2	32.4	Fiat 128	Fiat 128	6	4
+1.513	30.4	Lotus Europa	Lotus Europa	7	4
+1.615	30.4	Honda Civic	Honda Civic	7	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	7	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	7	4
+2.14	26	Porsche 914-2	Porsche 914-2	7	4
+2.2	32.4	Fiat 128	Fiat 128	7	4
+2.32	22.8	Datsun 710	Datsun 710	7	4
+1.513	30.4	Lotus Europa	Lotus Europa	8	4
+1.615	30.4	Honda Civic	Honda Civic	8	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	8	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	8	4
+2.14	26	Porsche 914-2	Porsche 914-2	8	4
+2.2	32.4	Fiat 128	Fiat 128	8	4
+2.32	22.8	Datsun 710	Datsun 710	8	4
+2.465	21.5	Toyota Corona	Toyota Corona	8	4
+1.513	30.4	Lotus Europa	Lotus Europa	9	4
+1.615	30.4	Honda Civic	Honda Civic	9	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	9	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	9	4
+2.14	26	Porsche 914-2	Porsche 914-2	9	4
+2.2	32.4	Fiat 128	Fiat 128	9	4
+2.32	22.8	Datsun 710	Datsun 710	9	4
+2.465	21.5	Toyota Corona	Toyota Corona	9	4
+2.62	21	Mazda RX4	Mazda RX4	9	6
+1.513	30.4	Lotus Europa	Lotus Europa	10	4
+1.615	30.4	Honda Civic	Honda Civic	10	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	10	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	10	4
+2.14	26	Porsche 914-2	Porsche 914-2	10	4
+2.2	32.4	Fiat 128	Fiat 128	10	4
+2.32	22.8	Datsun 710	Datsun 710	10	4
+2.465	21.5	Toyota Corona	Toyota Corona	10	4
+2.62	21	Mazda RX4	Mazda RX4	10	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	10	6
+1.513	30.4	Lotus Europa	Lotus Europa	11	4
+1.615	30.4	Honda Civic	Honda Civic	11	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	11	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	11	4
+2.14	26	Porsche 914-2	Porsche 914-2	11	4
+2.2	32.4	Fiat 128	Fiat 128	11	4
+2.32	22.8	Datsun 710	Datsun 710	11	4
+2.465	21.5	Toyota Corona	Toyota Corona	11	4
+2.62	21	Mazda RX4	Mazda RX4	11	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	11	6
+2.78	21.4	Volvo 142E	Volvo 142E	11	4
+1.513	30.4	Lotus Europa	Lotus Europa	12	4
+1.615	30.4	Honda Civic	Honda Civic	12	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	12	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	12	4
+2.14	26	Porsche 914-2	Porsche 914-2	12	4
+2.2	32.4	Fiat 128	Fiat 128	12	4
+2.32	22.8	Datsun 710	Datsun 710	12	4
+2.465	21.5	Toyota Corona	Toyota Corona	12	4
+2.62	21	Mazda RX4	Mazda RX4	12	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	12	6
+2.78	21.4	Volvo 142E	Volvo 142E	12	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	12	6
+1.513	30.4	Lotus Europa	Lotus Europa	13	4
+1.615	30.4	Honda Civic	Honda Civic	13	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	13	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	13	4
+2.14	26	Porsche 914-2	Porsche 914-2	13	4
+2.2	32.4	Fiat 128	Fiat 128	13	4
+2.32	22.8	Datsun 710	Datsun 710	13	4
+2.465	21.5	Toyota Corona	Toyota Corona	13	4
+2.62	21	Mazda RX4	Mazda RX4	13	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	13	6
+2.78	21.4	Volvo 142E	Volvo 142E	13	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	13	6
+3.15	22.8	Merc 230	Merc 230	13	4
+1.513	30.4	Lotus Europa	Lotus Europa	14	4
+1.615	30.4	Honda Civic	Honda Civic	14	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	14	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	14	4
+2.14	26	Porsche 914-2	Porsche 914-2	14	4
+2.2	32.4	Fiat 128	Fiat 128	14	4
+2.32	22.8	Datsun 710	Datsun 710	14	4
+2.465	21.5	Toyota Corona	Toyota Corona	14	4
+2.62	21	Mazda RX4	Mazda RX4	14	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	14	6
+2.78	21.4	Volvo 142E	Volvo 142E	14	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	14	6
+3.15	22.8	Merc 230	Merc 230	14	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	14	8
+1.513	30.4	Lotus Europa	Lotus Europa	15	4
+1.615	30.4	Honda Civic	Honda Civic	15	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	15	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	15	4
+2.14	26	Porsche 914-2	Porsche 914-2	15	4
+2.2	32.4	Fiat 128	Fiat 128	15	4
+2.32	22.8	Datsun 710	Datsun 710	15	4
+2.465	21.5	Toyota Corona	Toyota Corona	15	4
+2.62	21	Mazda RX4	Mazda RX4	15	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	15	6
+2.78	21.4	Volvo 142E	Volvo 142E	15	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	15	6
+3.15	22.8	Merc 230	Merc 230	15	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	15	8
+3.19	24.4	Merc 240D	Merc 240D	15	4
+1.513	30.4	Lotus Europa	Lotus Europa	16	4
+1.615	30.4	Honda Civic	Honda Civic	16	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	16	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	16	4
+2.14	26	Porsche 914-2	Porsche 914-2	16	4
+2.2	32.4	Fiat 128	Fiat 128	16	4
+2.32	22.8	Datsun 710	Datsun 710	16	4
+2.465	21.5	Toyota Corona	Toyota Corona	16	4
+2.62	21	Mazda RX4	Mazda RX4	16	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	16	6
+2.78	21.4	Volvo 142E	Volvo 142E	16	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	16	6
+3.15	22.8	Merc 230	Merc 230	16	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	16	8
+3.19	24.4	Merc 240D	Merc 240D	16	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	16	6
+1.513	30.4	Lotus Europa	Lotus Europa	17	4
+1.615	30.4	Honda Civic	Honda Civic	17	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	17	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	17	4
+2.14	26	Porsche 914-2	Porsche 914-2	17	4
+2.2	32.4	Fiat 128	Fiat 128	17	4
+2.32	22.8	Datsun 710	Datsun 710	17	4
+2.465	21.5	Toyota Corona	Toyota Corona	17	4
+2.62	21	Mazda RX4	Mazda RX4	17	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	17	6
+2.78	21.4	Volvo 142E	Volvo 142E	17	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	17	6
+3.15	22.8	Merc 230	Merc 230	17	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	17	8
+3.19	24.4	Merc 240D	Merc 240D	17	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	17	6
+3.435	15.2	AMC Javelin	AMC Javelin	17	8
+1.513	30.4	Lotus Europa	Lotus Europa	18	4
+1.615	30.4	Honda Civic	Honda Civic	18	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	18	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	18	4
+2.14	26	Porsche 914-2	Porsche 914-2	18	4
+2.2	32.4	Fiat 128	Fiat 128	18	4
+2.32	22.8	Datsun 710	Datsun 710	18	4
+2.465	21.5	Toyota Corona	Toyota Corona	18	4
+2.62	21	Mazda RX4	Mazda RX4	18	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	18	6
+2.78	21.4	Volvo 142E	Volvo 142E	18	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	18	6
+3.15	22.8	Merc 230	Merc 230	18	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	18	8
+3.19	24.4	Merc 240D	Merc 240D	18	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	18	6
+3.435	15.2	AMC Javelin	AMC Javelin	18	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	18	8
+1.513	30.4	Lotus Europa	Lotus Europa	19	4
+1.615	30.4	Honda Civic	Honda Civic	19	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	19	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	19	4
+2.14	26	Porsche 914-2	Porsche 914-2	19	4
+2.2	32.4	Fiat 128	Fiat 128	19	4
+2.32	22.8	Datsun 710	Datsun 710	19	4
+2.465	21.5	Toyota Corona	Toyota Corona	19	4
+2.62	21	Mazda RX4	Mazda RX4	19	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	19	6
+2.78	21.4	Volvo 142E	Volvo 142E	19	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	19	6
+3.15	22.8	Merc 230	Merc 230	19	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	19	8
+3.19	24.4	Merc 240D	Merc 240D	19	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	19	6
+3.435	15.2	AMC Javelin	AMC Javelin	19	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	19	8
+3.44	19.2	Merc 280	Merc 280	19	6
+1.513	30.4	Lotus Europa	Lotus Europa	20	4
+1.615	30.4	Honda Civic	Honda Civic	20	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	20	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	20	4
+2.14	26	Porsche 914-2	Porsche 914-2	20	4
+2.2	32.4	Fiat 128	Fiat 128	20	4
+2.32	22.8	Datsun 710	Datsun 710	20	4
+2.465	21.5	Toyota Corona	Toyota Corona	20	4
+2.62	21	Mazda RX4	Mazda RX4	20	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	20	6
+2.78	21.4	Volvo 142E	Volvo 142E	20	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	20	6
+3.15	22.8	Merc 230	Merc 230	20	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	20	8
+3.19	24.4	Merc 240D	Merc 240D	20	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	20	6
+3.435	15.2	AMC Javelin	AMC Javelin	20	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	20	8
+3.44	19.2	Merc 280	Merc 280	20	6
+3.44	17.8	Merc 280C	Merc 280C	20	6
+1.513	30.4	Lotus Europa	Lotus Europa	21	4
+1.615	30.4	Honda Civic	Honda Civic	21	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	21	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	21	4
+2.14	26	Porsche 914-2	Porsche 914-2	21	4
+2.2	32.4	Fiat 128	Fiat 128	21	4
+2.32	22.8	Datsun 710	Datsun 710	21	4
+2.465	21.5	Toyota Corona	Toyota Corona	21	4
+2.62	21	Mazda RX4	Mazda RX4	21	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	21	6
+2.78	21.4	Volvo 142E	Volvo 142E	21	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	21	6
+3.15	22.8	Merc 230	Merc 230	21	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	21	8
+3.19	24.4	Merc 240D	Merc 240D	21	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	21	6
+3.435	15.2	AMC Javelin	AMC Javelin	21	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	21	8
+3.44	19.2	Merc 280	Merc 280	21	6
+3.44	17.8	Merc 280C	Merc 280C	21	6
+3.46	18.1	Valiant	Valiant	21	6
+1.513	30.4	Lotus Europa	Lotus Europa	22	4
+1.615	30.4	Honda Civic	Honda Civic	22	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	22	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	22	4
+2.14	26	Porsche 914-2	Porsche 914-2	22	4
+2.2	32.4	Fiat 128	Fiat 128	22	4
+2.32	22.8	Datsun 710	Datsun 710	22	4
+2.465	21.5	Toyota Corona	Toyota Corona	22	4
+2.62	21	Mazda RX4	Mazda RX4	22	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	22	6
+2.78	21.4	Volvo 142E	Volvo 142E	22	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	22	6
+3.15	22.8	Merc 230	Merc 230	22	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	22	8
+3.19	24.4	Merc 240D	Merc 240D	22	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	22	6
+3.435	15.2	AMC Javelin	AMC Javelin	22	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	22	8
+3.44	19.2	Merc 280	Merc 280	22	6
+3.44	17.8	Merc 280C	Merc 280C	22	6
+3.46	18.1	Valiant	Valiant	22	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	22	8
+1.513	30.4	Lotus Europa	Lotus Europa	23	4
+1.615	30.4	Honda Civic	Honda Civic	23	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	23	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	23	4
+2.14	26	Porsche 914-2	Porsche 914-2	23	4
+2.2	32.4	Fiat 128	Fiat 128	23	4
+2.32	22.8	Datsun 710	Datsun 710	23	4
+2.465	21.5	Toyota Corona	Toyota Corona	23	4
+2.62	21	Mazda RX4	Mazda RX4	23	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	23	6
+2.78	21.4	Volvo 142E	Volvo 142E	23	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	23	6
+3.15	22.8	Merc 230	Merc 230	23	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	23	8
+3.19	24.4	Merc 240D	Merc 240D	23	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	23	6
+3.435	15.2	AMC Javelin	AMC Javelin	23	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	23	8
+3.44	19.2	Merc 280	Merc 280	23	6
+3.44	17.8	Merc 280C	Merc 280C	23	6
+3.46	18.1	Valiant	Valiant	23	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	23	8
+3.57	14.3	Duster 360	Duster 360	23	8
+1.513	30.4	Lotus Europa	Lotus Europa	24	4
+1.615	30.4	Honda Civic	Honda Civic	24	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	24	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	24	4
+2.14	26	Porsche 914-2	Porsche 914-2	24	4
+2.2	32.4	Fiat 128	Fiat 128	24	4
+2.32	22.8	Datsun 710	Datsun 710	24	4
+2.465	21.5	Toyota Corona	Toyota Corona	24	4
+2.62	21	Mazda RX4	Mazda RX4	24	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	24	6
+2.78	21.4	Volvo 142E	Volvo 142E	24	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	24	6
+3.15	22.8	Merc 230	Merc 230	24	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	24	8
+3.19	24.4	Merc 240D	Merc 240D	24	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	24	6
+3.435	15.2	AMC Javelin	AMC Javelin	24	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	24	8
+3.44	19.2	Merc 280	Merc 280	24	6
+3.44	17.8	Merc 280C	Merc 280C	24	6
+3.46	18.1	Valiant	Valiant	24	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	24	8
+3.57	14.3	Duster 360	Duster 360	24	8
+3.57	15	Maserati Bora	Maserati Bora	24	8
+1.513	30.4	Lotus Europa	Lotus Europa	25	4
+1.615	30.4	Honda Civic	Honda Civic	25	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	25	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	25	4
+2.14	26	Porsche 914-2	Porsche 914-2	25	4
+2.2	32.4	Fiat 128	Fiat 128	25	4
+2.32	22.8	Datsun 710	Datsun 710	25	4
+2.465	21.5	Toyota Corona	Toyota Corona	25	4
+2.62	21	Mazda RX4	Mazda RX4	25	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	25	6
+2.78	21.4	Volvo 142E	Volvo 142E	25	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	25	6
+3.15	22.8	Merc 230	Merc 230	25	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	25	8
+3.19	24.4	Merc 240D	Merc 240D	25	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	25	6
+3.435	15.2	AMC Javelin	AMC Javelin	25	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	25	8
+3.44	19.2	Merc 280	Merc 280	25	6
+3.44	17.8	Merc 280C	Merc 280C	25	6
+3.46	18.1	Valiant	Valiant	25	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	25	8
+3.57	14.3	Duster 360	Duster 360	25	8
+3.57	15	Maserati Bora	Maserati Bora	25	8
+3.73	17.3	Merc 450SL	Merc 450SL	25	8
+1.513	30.4	Lotus Europa	Lotus Europa	26	4
+1.615	30.4	Honda Civic	Honda Civic	26	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	26	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	26	4
+2.14	26	Porsche 914-2	Porsche 914-2	26	4
+2.2	32.4	Fiat 128	Fiat 128	26	4
+2.32	22.8	Datsun 710	Datsun 710	26	4
+2.465	21.5	Toyota Corona	Toyota Corona	26	4
+2.62	21	Mazda RX4	Mazda RX4	26	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	26	6
+2.78	21.4	Volvo 142E	Volvo 142E	26	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	26	6
+3.15	22.8	Merc 230	Merc 230	26	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	26	8
+3.19	24.4	Merc 240D	Merc 240D	26	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	26	6
+3.435	15.2	AMC Javelin	AMC Javelin	26	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	26	8
+3.44	19.2	Merc 280	Merc 280	26	6
+3.44	17.8	Merc 280C	Merc 280C	26	6
+3.46	18.1	Valiant	Valiant	26	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	26	8
+3.57	14.3	Duster 360	Duster 360	26	8
+3.57	15	Maserati Bora	Maserati Bora	26	8
+3.73	17.3	Merc 450SL	Merc 450SL	26	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	26	8
+1.513	30.4	Lotus Europa	Lotus Europa	27	4
+1.615	30.4	Honda Civic	Honda Civic	27	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	27	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	27	4
+2.14	26	Porsche 914-2	Porsche 914-2	27	4
+2.2	32.4	Fiat 128	Fiat 128	27	4
+2.32	22.8	Datsun 710	Datsun 710	27	4
+2.465	21.5	Toyota Corona	Toyota Corona	27	4
+2.62	21	Mazda RX4	Mazda RX4	27	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	27	6
+2.78	21.4	Volvo 142E	Volvo 142E	27	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	27	6
+3.15	22.8	Merc 230	Merc 230	27	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	27	8
+3.19	24.4	Merc 240D	Merc 240D	27	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	27	6
+3.435	15.2	AMC Javelin	AMC Javelin	27	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	27	8
+3.44	19.2	Merc 280	Merc 280	27	6
+3.44	17.8	Merc 280C	Merc 280C	27	6
+3.46	18.1	Valiant	Valiant	27	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	27	8
+3.57	14.3	Duster 360	Duster 360	27	8
+3.57	15	Maserati Bora	Maserati Bora	27	8
+3.73	17.3	Merc 450SL	Merc 450SL	27	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	27	8
+3.84	13.3	Camaro Z28	Camaro Z28	27	8
+1.513	30.4	Lotus Europa	Lotus Europa	28	4
+1.615	30.4	Honda Civic	Honda Civic	28	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	28	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	28	4
+2.14	26	Porsche 914-2	Porsche 914-2	28	4
+2.2	32.4	Fiat 128	Fiat 128	28	4
+2.32	22.8	Datsun 710	Datsun 710	28	4
+2.465	21.5	Toyota Corona	Toyota Corona	28	4
+2.62	21	Mazda RX4	Mazda RX4	28	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	28	6
+2.78	21.4	Volvo 142E	Volvo 142E	28	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	28	6
+3.15	22.8	Merc 230	Merc 230	28	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	28	8
+3.19	24.4	Merc 240D	Merc 240D	28	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	28	6
+3.435	15.2	AMC Javelin	AMC Javelin	28	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	28	8
+3.44	19.2	Merc 280	Merc 280	28	6
+3.44	17.8	Merc 280C	Merc 280C	28	6
+3.46	18.1	Valiant	Valiant	28	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	28	8
+3.57	14.3	Duster 360	Duster 360	28	8
+3.57	15	Maserati Bora	Maserati Bora	28	8
+3.73	17.3	Merc 450SL	Merc 450SL	28	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	28	8
+3.84	13.3	Camaro Z28	Camaro Z28	28	8
+3.845	19.2	Pontiac Firebird	Pontiac Firebird	28	8
+1.513	30.4	Lotus Europa	Lotus Europa	29	4
+1.615	30.4	Honda Civic	Honda Civic	29	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	29	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	29	4
+2.14	26	Porsche 914-2	Porsche 914-2	29	4
+2.2	32.4	Fiat 128	Fiat 128	29	4
+2.32	22.8	Datsun 710	Datsun 710	29	4
+2.465	21.5	Toyota Corona	Toyota Corona	29	4
+2.62	21	Mazda RX4	Mazda RX4	29	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	29	6
+2.78	21.4	Volvo 142E	Volvo 142E	29	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	29	6
+3.15	22.8	Merc 230	Merc 230	29	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	29	8
+3.19	24.4	Merc 240D	Merc 240D	29	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	29	6
+3.435	15.2	AMC Javelin	AMC Javelin	29	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	29	8
+3.44	19.2	Merc 280	Merc 280	29	6
+3.44	17.8	Merc 280C	Merc 280C	29	6
+3.46	18.1	Valiant	Valiant	29	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	29	8
+3.57	14.3	Duster 360	Duster 360	29	8
+3.57	15	Maserati Bora	Maserati Bora	29	8
+3.73	17.3	Merc 450SL	Merc 450SL	29	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	29	8
+3.84	13.3	Camaro Z28	Camaro Z28	29	8
+3.845	19.2	Pontiac Firebird	Pontiac Firebird	29	8
+4.07	16.4	Merc 450SE	Merc 450SE	29	8
+1.513	30.4	Lotus Europa	Lotus Europa	30	4
+1.615	30.4	Honda Civic	Honda Civic	30	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	30	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	30	4
+2.14	26	Porsche 914-2	Porsche 914-2	30	4
+2.2	32.4	Fiat 128	Fiat 128	30	4
+2.32	22.8	Datsun 710	Datsun 710	30	4
+2.465	21.5	Toyota Corona	Toyota Corona	30	4
+2.62	21	Mazda RX4	Mazda RX4	30	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	30	6
+2.78	21.4	Volvo 142E	Volvo 142E	30	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	30	6
+3.15	22.8	Merc 230	Merc 230	30	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	30	8
+3.19	24.4	Merc 240D	Merc 240D	30	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	30	6
+3.435	15.2	AMC Javelin	AMC Javelin	30	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	30	8
+3.44	19.2	Merc 280	Merc 280	30	6
+3.44	17.8	Merc 280C	Merc 280C	30	6
+3.46	18.1	Valiant	Valiant	30	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	30	8
+3.57	14.3	Duster 360	Duster 360	30	8
+3.57	15	Maserati Bora	Maserati Bora	30	8
+3.73	17.3	Merc 450SL	Merc 450SL	30	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	30	8
+3.84	13.3	Camaro Z28	Camaro Z28	30	8
+3.845	19.2	Pontiac Firebird	Pontiac Firebird	30	8
+4.07	16.4	Merc 450SE	Merc 450SE	30	8
+5.25	10.4	Cadillac Fleetwood	Cadillac Fleetwood	30	8
+1.513	30.4	Lotus Europa	Lotus Europa	31	4
+1.615	30.4	Honda Civic	Honda Civic	31	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	31	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	31	4
+2.14	26	Porsche 914-2	Porsche 914-2	31	4
+2.2	32.4	Fiat 128	Fiat 128	31	4
+2.32	22.8	Datsun 710	Datsun 710	31	4
+2.465	21.5	Toyota Corona	Toyota Corona	31	4
+2.62	21	Mazda RX4	Mazda RX4	31	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	31	6
+2.78	21.4	Volvo 142E	Volvo 142E	31	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	31	6
+3.15	22.8	Merc 230	Merc 230	31	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	31	8
+3.19	24.4	Merc 240D	Merc 240D	31	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	31	6
+3.435	15.2	AMC Javelin	AMC Javelin	31	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	31	8
+3.44	19.2	Merc 280	Merc 280	31	6
+3.44	17.8	Merc 280C	Merc 280C	31	6
+3.46	18.1	Valiant	Valiant	31	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	31	8
+3.57	14.3	Duster 360	Duster 360	31	8
+3.57	15	Maserati Bora	Maserati Bora	31	8
+3.73	17.3	Merc 450SL	Merc 450SL	31	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	31	8
+3.84	13.3	Camaro Z28	Camaro Z28	31	8
+3.845	19.2	Pontiac Firebird	Pontiac Firebird	31	8
+4.07	16.4	Merc 450SE	Merc 450SE	31	8
+5.25	10.4	Cadillac Fleetwood	Cadillac Fleetwood	31	8
+5.345	14.7	Chrysler Imperial	Chrysler Imperial	31	8
+1.513	30.4	Lotus Europa	Lotus Europa	32	4
+1.615	30.4	Honda Civic	Honda Civic	32	4
+1.835	33.9	Toyota Corolla	Toyota Corolla	32	4
+1.935	27.3	Fiat X1-9	Fiat X1-9	32	4
+2.14	26	Porsche 914-2	Porsche 914-2	32	4
+2.2	32.4	Fiat 128	Fiat 128	32	4
+2.32	22.8	Datsun 710	Datsun 710	32	4
+2.465	21.5	Toyota Corona	Toyota Corona	32	4
+2.62	21	Mazda RX4	Mazda RX4	32	6
+2.77	19.7	Ferrari Dino	Ferrari Dino	32	6
+2.78	21.4	Volvo 142E	Volvo 142E	32	4
+2.875	21	Mazda RX4 Wag	Mazda RX4 Wag	32	6
+3.15	22.8	Merc 230	Merc 230	32	4
+3.17	15.8	Ford Pantera L	Ford Pantera L	32	8
+3.19	24.4	Merc 240D	Merc 240D	32	4
+3.215	21.4	Hornet 4 Drive	Hornet 4 Drive	32	6
+3.435	15.2	AMC Javelin	AMC Javelin	32	8
+3.44	18.7	Hornet Sportabout	Hornet Sportabout	32	8
+3.44	19.2	Merc 280	Merc 280	32	6
+3.44	17.8	Merc 280C	Merc 280C	32	6
+3.46	18.1	Valiant	Valiant	32	6
+3.52	15.5	Dodge Challenger	Dodge Challenger	32	8
+3.57	14.3	Duster 360	Duster 360	32	8
+3.57	15	Maserati Bora	Maserati Bora	32	8
+3.73	17.3	Merc 450SL	Merc 450SL	32	8
+3.78	15.2	Merc 450SLC	Merc 450SLC	32	8
+3.84	13.3	Camaro Z28	Camaro Z28	32	8
+3.845	19.2	Pontiac Firebird	Pontiac Firebird	32	8
+4.07	16.4	Merc 450SE	Merc 450SE	32	8
+5.25	10.4	Cadillac Fleetwood	Cadillac Fleetwood	32	8
+5.345	14.7	Chrysler Imperial	Chrysler Imperial	32	8
+5.424	10.4	Lincoln Continental	Lincoln Continental	32	8

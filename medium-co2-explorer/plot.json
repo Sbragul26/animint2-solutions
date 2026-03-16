@@ -1,0 +1,869 @@
+{
+ "geoms": {
+ "geom1_line_curve": {
+ "geom": "line",
+"classed": "geom1_line_curve",
+"aes": {
+ "x": "conc",
+"y": "uptake",
+"group": "plant",
+"colour": "type",
+"key": "plant" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":     0.25,
+"size":      0.8 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "character",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "group" 
+],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_line_curve": {
+ "geom": "line",
+"classed": "geom2_line_curve",
+"aes": {
+ "x": "conc",
+"y": "uptake",
+"group": "plant",
+"key": "plant",
+"showSelected1": "plant" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"size":      1.2,
+"showSelected": "plant",
+"help_showSelected": "plant" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "character",
+"showSelected1": "character",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"group" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_point_curve": {
+ "geom": "point",
+"classed": "geom3_point_curve",
+"aes": {
+ "x": "conc",
+"y": "uptake",
+"colour": "treat",
+"key": "plant",
+"clickSelects": "plant",
+"showSelected1": "step" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":      2.8,
+"alpha":      0.9,
+"showSelected": "step",
+"clickSelects": "plant",
+"alpha_off":      0.1,
+"help_showSelected": "step",
+"help_clickSelects": "plant" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"clickSelects": "character",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character",
+"fill": "rgb" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom4_text_curve": {
+ "geom": "text",
+"classed": "geom4_text_curve",
+"aes": {
+ "x": "conc",
+"y": "top",
+"label": "plant",
+"key": "plant",
+"showSelected1": "step",
+"showSelected2": "plant" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":      2.8,
+"showSelected": [ "step", "plant" ],
+"help_showSelected": [ "step", "plant" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "character",
+"showSelected1": "integer",
+"showSelected2": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_text_curve": {
+ "geom": "text",
+"classed": "geom5_text_curve",
+"aes": {
+ "x": "x",
+"y": "y",
+"label": "label",
+"key": "1",
+"showSelected1": "step" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":        5,
+"fontface": "bold",
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_bar_typeplot": {
+ "geom": "rect",
+"classed": "geom6_bar_typeplot",
+"aes": {
+ "x": "type",
+"y": "uptake",
+"fill": "type",
+"key": "type",
+"showSelected1": "step" 
+},
+"params": {
+ "width":      0.7,
+"na.rm": false,
+"na.rm": false,
+"alpha":      0.9,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "fill": "rgb",
+"key": "factor",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character",
+"ymin": "numeric",
+"ymax": "numeric",
+"xmin": "numeric",
+"xmax": "numeric" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_text_typeplot": {
+ "geom": "text",
+"classed": "geom7_text_typeplot",
+"aes": {
+ "x": "type",
+"y": "top",
+"label": "round(uptake, 1)",
+"key": "type",
+"showSelected1": "step" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":      3.5,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "integer",
+"y": "numeric",
+"label": "numeric",
+"key": "factor",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom8_bar_treatplot": {
+ "geom": "rect",
+"classed": "geom8_bar_treatplot",
+"aes": {
+ "x": "treat",
+"y": "uptake",
+"fill": "treat",
+"key": "treat",
+"showSelected1": "step" 
+},
+"params": {
+ "width":      0.7,
+"na.rm": false,
+"na.rm": false,
+"alpha":      0.9,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "fill": "rgb",
+"key": "factor",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character",
+"ymin": "numeric",
+"ymax": "numeric",
+"xmin": "numeric",
+"xmax": "numeric" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom9_text_treatplot": {
+ "geom": "text",
+"classed": "geom9_text_treatplot",
+"aes": {
+ "x": "treat",
+"y": "top",
+"label": "round(uptake, 1)",
+"key": "treat",
+"showSelected1": "step" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":      3.5,
+"showSelected": "step",
+"help_showSelected": "step" 
+},
+"types": {
+ "x": "integer",
+"y": "numeric",
+"label": "numeric",
+"key": "factor",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "step",
+"ms":      700,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7" ] 
+},
+"selectors": {
+ "plant": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "Qn1",
+"levels": [ "Mc1", "Mc2", "Mc3", "Mn1", "Mn2", "Mn3", "Qc1", "Qc2", "Qc3", "Qn1", "Qn2", "Qn3" ],
+"update": [
+ "geom2_line_curve",
+"geom3_point_curve",
+"geom4_text_curve" 
+] 
+},
+"step": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7" ],
+"update": [
+ "geom3_point_curve",
+"geom4_text_curve",
+"geom5_text_curve",
+"geom6_bar_typeplot",
+"geom7_text_typeplot",
+"geom8_bar_treatplot",
+"geom9_text_treatplot" 
+] 
+} 
+},
+"plots": {
+ "curve": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      250,
+     500,
+     750,
+    1000 
+] 
+],
+"y": [
+ [
+       10,
+      20,
+      30,
+      40,
+      50 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      125,
+     250,
+     375,
+     500,
+     625,
+     750,
+     875,
+    1000 
+] 
+],
+"y": [
+ [
+       10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+      250,
+     500,
+     750,
+    1000 
+],
+"xlab": [
+ "250",
+"500",
+"750",
+"1000" 
+],
+"xrange": [    49.75,  1045.25 ],
+"xline": false,
+"xticks": true,
+"y": [
+       10,
+      20,
+      30,
+      40,
+      50 
+],
+"ylab": [
+ "10",
+"20",
+"30",
+"40",
+"50" 
+],
+"yrange": [     5.61,    51.59 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Concentration",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Uptake",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "250",
+"500",
+"750",
+"1000" 
+],
+"ylabs": [
+ "10",
+"20",
+"30",
+"40",
+"50" 
+],
+"title": "CO2 Uptake Explorer",
+"title_size": "14.4pt",
+"options": {
+ "width":      900,
+"height":      420 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_line_curve",
+"geom2_line_curve",
+"geom3_point_curve",
+"geom4_text_curve",
+"geom5_text_curve" 
+] 
+},
+"typeplot": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+ 1,
+2 
+] 
+],
+"y": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [] 
+],
+"y": [
+ [
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 1,
+2 
+],
+"xlab": [
+ "Quebec",
+"Mississippi" 
+],
+"xrange": [      0.4,      2.6 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"ylab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"yrange": [   -2.175,   45.675 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Type",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Average Uptake",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "Quebec",
+"Mississippi" 
+],
+"ylabs": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"title": "Average Uptake by Type",
+"title_size": "14.4pt",
+"options": {
+ "width":      520,
+"height":      320 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom6_bar_typeplot",
+"geom7_text_typeplot" 
+] 
+},
+"treatplot": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+ 1,
+2 
+] 
+],
+"y": [
+ [
+        0,
+      10,
+      20,
+      30,
+      40 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [] 
+],
+"y": [
+ [
+        0,
+       5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 1,
+2 
+],
+"xlab": [
+ "nonchilled",
+"chilled" 
+],
+"xrange": [      0.4,      2.6 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+      10,
+      20,
+      30,
+      40 
+],
+"ylab": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"yrange": [ -1.944167,  40.8275 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Treatment",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Average Uptake",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "nonchilled",
+"chilled" 
+],
+"ylabs": [
+ "0",
+"10",
+"20",
+"30",
+"40" 
+],
+"title": "Average Uptake by Treatment",
+"title_size": "14.4pt",
+"options": {
+ "width":      520,
+"height":      320 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom8_bar_treatplot",
+"geom9_text_treatplot" 
+] 
+} 
+} 
+}

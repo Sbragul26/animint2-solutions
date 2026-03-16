@@ -1,0 +1,659 @@
+{
+ "geoms": {
+ "geom1_line_growth": {
+ "geom": "line",
+"classed": "geom1_line_growth",
+"aes": {
+ "x": "day",
+"y": "weight",
+"group": "chick",
+"colour": "diet",
+"key": "chick" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":     0.25,
+"size":      0.8 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "linetype",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "group" 
+],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_line_growth": {
+ "geom": "line",
+"classed": "geom2_line_growth",
+"aes": {
+ "x": "day",
+"y": "weight",
+"group": "chick",
+"key": "chick",
+"showSelected1": "chick" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000",
+"size":      1.2,
+"showSelected": "chick",
+"help_showSelected": "chick" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"group": "character",
+"key": "linetype",
+"showSelected1": "linetype",
+"PANEL": "integer" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"group" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom3_point_growth": {
+ "geom": "point",
+"classed": "geom3_point_growth",
+"aes": {
+ "x": "day",
+"y": "weight",
+"colour": "diet",
+"key": "chick",
+"clickSelects": "chick",
+"showSelected1": "day",
+"showSelected2": "diet" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":      2.5,
+"alpha":      0.9,
+"showSelected": [ "day", "diet" ],
+"clickSelects": "chick",
+"alpha_off":      0.1,
+"help_showSelected": [ "day", "diet" ],
+"help_clickSelects": "chick" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "linetype",
+"clickSelects": "linetype",
+"showSelected1": "numeric",
+"showSelected2": "factor",
+"PANEL": "integer",
+"group": "character",
+"fill": "rgb" 
+},
+"chunk_order": [
+ "diet" 
+],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": {
+ "1": 1,
+"2": 2,
+"3": 3,
+"4": 4 
+},
+"total": 4 
+},
+"geom4_text_growth": {
+ "geom": "text",
+"classed": "geom4_text_growth",
+"aes": {
+ "x": "day",
+"y": "top",
+"label": "chick",
+"key": "chick",
+"showSelected1": "day",
+"showSelected2": "chick" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":        3,
+"showSelected": [ "day", "chick" ],
+"help_showSelected": [ "day", "chick" ] 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "linetype",
+"key": "linetype",
+"showSelected1": "numeric",
+"showSelected2": "linetype",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_text_growth": {
+ "geom": "text",
+"classed": "geom5_text_growth",
+"aes": {
+ "x": "x",
+"y": "y",
+"label": "label",
+"key": "1",
+"showSelected1": "day" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":        5,
+"fontface": "bold",
+"showSelected": "day",
+"help_showSelected": "day" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "numeric",
+"showSelected1": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom6_bar_dietplot": {
+ "geom": "rect",
+"classed": "geom6_bar_dietplot",
+"aes": {
+ "x": "diet",
+"y": "weight",
+"fill": "diet",
+"key": "diet",
+"clickSelects": "diet",
+"showSelected1": "day" 
+},
+"params": {
+ "width":      0.7,
+"na.rm": false,
+"na.rm": false,
+"alpha":      0.9,
+"showSelected": "day",
+"clickSelects": "diet",
+"help_showSelected": "day",
+"help_clickSelects": "diet" 
+},
+"types": {
+ "fill": "rgb",
+"key": "factor",
+"clickSelects": "factor",
+"showSelected1": "numeric",
+"PANEL": "integer",
+"group": "character",
+"ymin": "numeric",
+"ymax": "numeric",
+"xmin": "numeric",
+"xmax": "numeric" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom7_text_dietplot": {
+ "geom": "text",
+"classed": "geom7_text_dietplot",
+"aes": {
+ "x": "diet",
+"y": "top",
+"label": "round(weight, 1)",
+"key": "diet",
+"showSelected1": "day" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":        4,
+"showSelected": "day",
+"help_showSelected": "day" 
+},
+"types": {
+ "x": "integer",
+"y": "numeric",
+"label": "numeric",
+"key": "factor",
+"showSelected1": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "day",
+"ms":      600,
+"sequence": [ "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "21" ] 
+},
+"selectors": {
+ "chick": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "1",
+"levels": [ "1", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "2", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "3", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "4", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "5", "50", "6", "7", "8", "9" ],
+"update": [
+ "geom2_line_growth",
+"geom3_point_growth",
+"geom4_text_growth" 
+] 
+},
+"day": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"selected": "0",
+"levels": [ "0", "2", "4", "6", "8", "10", "12", "14", "16", "18", "20", "21" ],
+"update": [
+ "geom3_point_growth",
+"geom4_text_growth",
+"geom5_text_growth",
+"geom6_bar_dietplot",
+"geom7_text_dietplot" 
+] 
+},
+"diet": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"chunks": "diet",
+"clickSelects": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4" ],
+"update": [
+ "geom3_point_growth",
+"geom6_bar_dietplot" 
+] 
+} 
+},
+"plots": {
+ "growth": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       5,
+      10,
+      15,
+      20 
+] 
+],
+"y": [
+ [
+      100,
+     200,
+     300,
+     400 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     2.5,
+       5,
+     7.5,
+      10,
+    12.5,
+      15,
+    17.5,
+      20 
+] 
+],
+"y": [
+ [
+       50,
+     100,
+     150,
+     200,
+     250,
+     300,
+     350,
+     400 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+       5,
+      10,
+      15,
+      20 
+],
+"xlab": [
+ "0",
+"5",
+"10",
+"15",
+"20" 
+],
+"xrange": [    -1.05,    22.05 ],
+"xline": false,
+"xticks": true,
+"y": [
+      100,
+     200,
+     300,
+     400 
+],
+"ylab": [
+ "100",
+"200",
+"300",
+"400" 
+],
+"yrange": [    16.85,   416.15 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Day",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Weight",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"5",
+"10",
+"15",
+"20" 
+],
+"ylabs": [
+ "100",
+"200",
+"300",
+"400" 
+],
+"title": "Chick Weight Growth Explorer",
+"title_size": "14.4pt",
+"options": {
+ "width":      900,
+"height":      420 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_line_growth",
+"geom2_line_growth",
+"geom3_point_growth",
+"geom4_text_growth",
+"geom5_text_growth" 
+] 
+},
+"dietplot": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+ 1,
+2,
+3,
+4 
+] 
+],
+"y": [
+ [
+        0,
+     100,
+     200 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [] 
+],
+"y": [
+ [
+        0,
+      50,
+     100,
+     150,
+     200,
+     250 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+ 1,
+2,
+3,
+4 
+],
+"xlab": [
+ "1",
+"2",
+"3",
+"4" 
+],
+"xrange": [      0.4,      4.6 ],
+"xline": false,
+"xticks": true,
+"y": [
+        0,
+     100,
+     200 
+],
+"ylab": [
+ "0",
+"100",
+"200" 
+],
+"yrange": [  -14.015,  294.315 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "Diet",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "Average Weight",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "1",
+"2",
+"3",
+"4" 
+],
+"ylabs": [
+ "0",
+"100",
+"200" 
+],
+"title": "Average Weight by Diet",
+"title_size": "14.4pt",
+"options": {
+ "width":      500,
+"height":      320 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom6_bar_dietplot",
+"geom7_text_dietplot" 
+] 
+} 
+} 
+}
