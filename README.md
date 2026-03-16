@@ -1,54 +1,63 @@
-# R Animint2 Test Solutions (Unique Overview)
+# Animint2 Test Solutions
 
-This repository now uses four alternative, easy-to-understand interactive animation ideas built with `animint2`.
-The published links are kept as they are.
+This repository contains my `animint2` test solutions.
+Each project has its own R file, its own output folder, and its own GitHub Pages link.
 
----
+Repository link:
 
-## Easy Test Solution
-
-- Chick Weight Growth Explorer (animated growth lines + diet bars + chick selection): [Github Pages Link](https://prateek-kalwar-95.github.io/flip_coin/)
-- Source Code: `01_easy_iris_timeline.R`
-- Local Output Directory: `easy-chickweight-explorer/`
+- https://github.com/Sbragul26/animint2-solutions
 
 ---
 
-## Medium Test Solutions
+## Easy Solution
 
-- Car Weight vs Mileage Explorer (cylinder-based interactive filtering): [Github Pages Link](https://prateek-kalwar-95.github.io/brownian-motion/)
-- Source Code: `02_medium_mtcars_explorer.R`
-- Local Output Directory: `medium-mtcars-explorer/`
-
-- Orange Tree Growth Explorer (linked lines, bars, and animated age steps): [Github Pages Link](https://prateek-kalwar-95.github.io/animint2-worldbank/)
-- Source Code: `03_medium_airquality_explorer.R`
-- Local Output Directory: `medium-orange-explorer/`
-
-- CO2 Uptake Explorer (animated concentration steps with linked summary bars): [Github Pages Link](https://prateek-kalwar-95.github.io/leastSquare/)
-- Source Code: `04_medium_faithful_explorer.R`
-- Local Output Directory: `medium-co2-explorer/`
+- Project: Chick Weight Growth Explorer
+- What it shows: chick growth over time, diet comparison, and simple click interaction
+- R file: [`01_easy_iris_timeline.R`](https://github.com/Sbragul26/animint2-solutions/blob/main/01_easy_iris_timeline.R)
+- Output folder: `easy-chickweight-explorer/`
+- Live link: https://sbragul26.github.io/animint2-solutions/easy-chickweight-explorer/
 
 ---
 
-## Medium-Hard Test Solution
+## Medium Solutions
 
-- Gallery Link : [prateek-animint-gallery](https://prateek-kalwar-95.github.io/prateek-animint-gallery/)
-- Code Link : [Code](https://github.com/prateek-kalwar-95/prateek-animint-gallery)
+- Project: Car Weight vs Mileage Explorer
+- What it shows: car points, animated reveal, and linked filtering
+- R file: [`02_medium_mtcars_explorer.R`](https://github.com/Sbragul26/animint2-solutions/blob/main/02_medium_mtcars_explorer.R)
+- Output folder: `medium-mtcars-explorer/`
+- Live link: https://sbragul26.github.io/animint2-solutions/medium-mtcars-explorer/
+
+- Project: Orange Tree Growth Explorer
+- What it shows: linked growth lines, current size bars, and average growth over time
+- R file: [`03_medium_airquality_explorer.R`](https://github.com/Sbragul26/animint2-solutions/blob/main/03_medium_airquality_explorer.R)
+- Output folder: `medium-orange-explorer/`
+- Live link: https://sbragul26.github.io/animint2-solutions/medium-orange-explorer/
+
+- Project: CO2 Uptake Explorer
+- What it shows: plant uptake curves, type summary, and treatment summary
+- R file: [`04_medium_faithful_explorer.R`](https://github.com/Sbragul26/animint2-solutions/blob/main/04_medium_faithful_explorer.R)
+- Output folder: `medium-co2-explorer/`
+- Live link: https://sbragul26.github.io/animint2-solutions/medium-co2-explorer/
 
 ---
 
-## Hard Test Solution
+## Hard Solution
 
-- Hard Renderer SVG Validation Script: `05_hard_renderer_svg_test.R`
-- Local Output Directory: `hard-renderer-svg-test/`
-- Local Preview File: `hard-renderer-svg-test-preview.html`
-
-- Video Link: https://youtu.be/InXFuJtqTck
-- PR link: [WorldBank visualization](https://github.com/animint/animint2/pull/297)
+- Project: Hard Renderer SVG Test
+- What it shows: animated renderer output with file validation checks
+- R file: [`05_hard_renderer_svg_test.R`](https://github.com/Sbragul26/animint2-solutions/blob/main/05_hard_renderer_svg_test.R)
+- Output folder: `hard-renderer-svg-test/`
+- Live link: https://sbragul26.github.io/animint2-solutions/hard-renderer-svg-test/
 
 ---
 
-- Video Link: https://vimeo.com/1167167934/9a451ec913
-- PR link: [Flip_Coin](https://github.com/animint/animint2/pull/302)
+Links:
+
+- http://localhost:8000/easy-chickweight-explorer/
+- http://localhost:8000/medium-mtcars-explorer/
+- http://localhost:8000/medium-orange-explorer/
+- http://localhost:8000/medium-co2-explorer/
+- http://localhost:8000/hard-renderer-svg-test/
 
 
 
